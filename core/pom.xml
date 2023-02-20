@@ -1,0 +1,96 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>io.hermes</groupId>
+    <artifactId>hermes</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>core</artifactId>
+  
+  <dependencies>
+		<dependency>
+			<artifactId>guice</artifactId>
+			<groupId>com.google.inject</groupId>
+		</dependency>
+
+		<dependency>
+			<artifactId>guice-assistedinject</artifactId>
+			<groupId>com.google.inject.extensions</groupId>
+		</dependency>
+
+		<dependency>
+			<artifactId>guice-multibindings</artifactId>
+			<groupId>com.google.inject.extensions</groupId>
+		</dependency>
+
+		<dependency>
+			<artifactId>guava</artifactId>
+			<groupId>com.google.guava</groupId>
+		</dependency>
+
+		<dependency>
+			<artifactId>netty-all</artifactId>
+			<groupId>io.netty</groupId>
+		</dependency>
+
+		<dependency>
+			<artifactId>snakeyaml</artifactId>
+			<groupId>org.yaml</groupId>
+		</dependency>
+
+		<dependency>
+			<artifactId>slf4j-api</artifactId>
+			<groupId>org.slf4j</groupId>
+			<optional>true</optional>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<artifactId>slf4j-log4j12</artifactId>
+			<groupId>org.slf4j</groupId>
+			<optional>true</optional>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<artifactId>log4j</artifactId>
+			<groupId>log4j</groupId>
+			<optional>true</optional>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<artifactId>jackson-databind</artifactId>
+			<groupId>com.fasterxml.jackson.core</groupId>
+		</dependency>
+
+		<dependency>
+			<artifactId>jackson-core</artifactId>
+			<groupId>com.fasterxml.jackson.core</groupId>
+		</dependency>
+
+		<dependency>
+			<artifactId>jackson-dataformat-smile</artifactId>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+		</dependency>
+
+		<dependency>
+			<artifactId>jackson-dataformat-yaml</artifactId>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+		</dependency>
+
+		<dependency>
+			<artifactId>jackson-dataformat-cbor</artifactId>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+		</dependency>
+
+		<dependency>
+			<artifactId>joda-time</artifactId>
+			<groupId>joda-time</groupId>
+		</dependency>
+	 
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>
